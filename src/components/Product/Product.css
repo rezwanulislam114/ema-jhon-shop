@@ -1,0 +1,27 @@
+.product {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    margin-right: 5px;
+}
+.product img {
+    padding: 10px;
+    margin-right: 20px;
+}
+.purchase-button {
+    background: #ffb850;
+    padding: 5px 15px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    color: white;
+}
+.purchase-button:hover {
+    background: #ff9e0c;
+}
+.fa-star {
+    color: #ffdd48;
+}
+.fa-shopping-cart {
+    margin-right: 5px;
+}

@@ -1,0 +1,30 @@
+.shop {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.product-section {
+    margin-left: 15%;
+    border-right: 1px solid lightgray;
+}
+.cart-section {
+    margin-left: 10px;
+}
+.search-section {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.795);
+}
+.search-section input {
+    width: 60%;
+    line-height: 25px;
+}
+.search-section span {
+    font-size: 26px;
+    color: white;
+    margin-left: 20px;
+}
+.fa-search {
+    margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+}
+.logo img {
+    height: 60px;
+}
+.navbar nav {
+    background: black;
+}
+.navbar nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+.navbar nav a:hover {
+    background: gray;
+}
