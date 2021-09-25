@@ -19,7 +19,7 @@ const Cart = (props) => {
             <h3>Total Price: {total.toFixed(2)}</h3>
             <h3>Shippig: {shipping}</h3>
             <h3>Tex: {tex.toFixed(2)}</h3>
-            <h2>Grand Total: {grandTotal.toFixed(2)}</h2>
+            <h2 className="grand-total">Grand Total: {grandTotal.toFixed(2)}</h2>
         </div>
     );
 };
